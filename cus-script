@@ -1,4 +1,7 @@
  if [[ $(which screenfetch > /dev/null) -eq 0 ]];then
-	 screenfetch -D 'arch'
+         screenfetch -D 'arch'
  fi;
-	
+
+ precmd(){ print "" }
+
+ autoload -U compinit && compinit
