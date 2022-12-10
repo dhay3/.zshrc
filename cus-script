@@ -1,0 +1,4 @@
+ if [[ $(which screenfetch > /dev/null) -eq 0 ]];then
+	 screenfetch -D 'arch'
+ fi;
+	
