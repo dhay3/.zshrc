@@ -115,8 +115,3 @@ if [[ -d /sharing/conf  ]];then
 		source $file
 	done
 fi
-
-precmd(){ print "" }
-
-autoload -U compinit && compinit
-
