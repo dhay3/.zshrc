@@ -1,4 +1,0 @@
-export EDITOR=/usr/bin/vim
-export LC_ALL="en_US.UTF-8"
-export LANGUAGE="en_US:en_US:en_US:en_US"
-export FZF_DEFAULT_COMMAND="find ."
